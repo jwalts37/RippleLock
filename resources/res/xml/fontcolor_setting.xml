@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:title="@string/font_size_setting" android:key="font_size_setting">
+    <CheckBoxPreference android:title="@string/default_color" android:key="default_color"/>
+    <com.nanoha.MyLockScreen_all.setting.ColorPickerPreference android:persistent="true" android:title="@string/time_color" android:key="time_color" android:dialogTitle="@string/time_color"/>
+    <com.nanoha.MyLockScreen_all.setting.ColorPickerPreference android:persistent="true" android:title="@string/am_color" android:key="am_color" android:dialogTitle="@string/am_color"/>
+    <com.nanoha.MyLockScreen_all.setting.ColorPickerPreference android:persistent="true" android:title="@string/date_color" android:key="date_color" android:dialogTitle="@string/date_color"/>
+    <com.nanoha.MyLockScreen_all.setting.ColorPickerPreference android:persistent="true" android:title="@string/status_color" android:key="status_color" android:dialogTitle="@string/status_color"/>
+    <com.nanoha.MyLockScreen_all.setting.ColorPickerPreference android:persistent="true" android:title="@string/carrier_color" android:key="carrier_color" android:dialogTitle="@string/carrier_color"/>
+</PreferenceScreen>

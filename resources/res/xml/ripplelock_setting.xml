@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:title="@string/settings" android:key="main_setting">
+    <Preference android:title="@string/font_setting" android:key="font_setting"/>
+    <Preference android:title="@string/display_setting" android:key="display_setting"/>
+    <Preference android:title="@string/other_setting" android:key="other_setting"/>
+</PreferenceScreen>

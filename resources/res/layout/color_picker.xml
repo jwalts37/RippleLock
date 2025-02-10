@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="left" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_alignParentLeft="true"/>
+        <TextView android:gravity="left" android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_below="@+id/title"/>
+    </RelativeLayout>
+</LinearLayout>

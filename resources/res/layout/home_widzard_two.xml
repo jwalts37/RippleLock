@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@+id/all_launcher_layout" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textSize="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/select_use_launcher"/>
+        <ListView android:id="@+id/launcher_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp"/>
+    </LinearLayout>
+</LinearLayout>

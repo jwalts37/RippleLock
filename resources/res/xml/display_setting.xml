@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:title="@string/display_setting">
+    <PreferenceCategory android:title="@string/background_setting"/>
+    <ListPreference android:entries="@array/background_entries" android:title="@string/background_setting" android:key="background_setting" android:summary="@string/background_setting_summary" android:entryValues="@array/background_values"/>
+    <EditTextPreference android:title="@string/background_alpha_setting" android:key="background_alpha_setting" android:summary="@string/alpha_limit"/>
+    <ListPreference android:entries="@array/theme_entries" android:title="@string/ring_theme" android:key="custom_theme" android:entryValues="@array/theme_values"/>
+    <PreferenceCategory android:title="@string/display_setting"/>
+    <CheckBoxPreference android:title="@string/only_display_lock_circle" android:key="only_display_lock_circle"/>
+    <CheckBoxPreference android:title="@string/display_carrier" android:key="display_carrier"/>
+    <CheckBoxPreference android:title="@string/display_time" android:key="display_time"/>
+    <CheckBoxPreference android:title="@string/display_date" android:key="display_date"/>
+    <CheckBoxPreference android:title="@string/display_status" android:key="display_status"/>
+    <CheckBoxPreference android:title="@string/display_mute_icon" android:key="display_mute_icon"/>
+    <CheckBoxPreference android:title="@string/display_music_control" android:key="display_music_control"/>
+    <CheckBoxPreference android:title="@string/display_statusbar" android:key="display_statusbar"/>
+    <CheckBoxPreference android:title="@string/display_lock_icon" android:key="display_lock_icon"/>
+    <CheckBoxPreference android:title="@string/always_display_battery" android:key="always_display_battery"/>
+</PreferenceScreen>

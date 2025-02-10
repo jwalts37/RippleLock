@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:orientation="horizontal" android:id="@+id/root_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@+id/carrier" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <RelativeLayout android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/carrier">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="52dp" android:ellipsize="none" android:id="@+id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0" android:shadowDy="0" android:shadowRadius="3"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="15dp" android:ellipsize="none" android:id="@+id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0" android:shadowDy="0" android:shadowRadius="3" android:layout_toRightOf="@+id/timeDisplay" android:layout_alignBaseline="@+id/timeDisplay"/>
+    </RelativeLayout>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="16dp" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/time"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="16dp" android:id="@+id/status1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_lock_idle_charging" android:drawablePadding="4dp" android:layout_below="@+id/date"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="16dp" android:id="@+id/status2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_lock_idle_alarm" android:drawablePadding="4dp" android:layout_below="@+id/status1"/>
+</RelativeLayout>

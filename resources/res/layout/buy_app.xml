@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:orientation="vertical" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/buy_app"/>
+    <TextView android:autoLink="web" android:id="@+id/web_site" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/download_site"/>
+    <TextView android:id="@+id/buy_result" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

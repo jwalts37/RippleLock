@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/umeng_analyse_gray_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <TextView android:textSize="20dp" android:textColor="#565656" android:gravity="center" android:id="@+id/umeng_analyse_new_reply_alert_title" android:background="@drawable/umeng_analyse_feedback_bar_bg" android:layout_width="match_parent" android:layout_height="40dp" android:text="您的反馈收到了回复"/>
+        <TextView android:textSize="19dp" android:textColor="#6f6f6f" android:gravity="center_vertical" android:id="@+id/umeng_analyse_new_dev_reply_box" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="10dp" android:layout_marginRight="8dp" android:minHeight="110dp" android:text="This is the reply from dev"/>
+        <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="3dp" android:layout_marginTop="3dp" android:layout_marginBottom="1dp"/>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp">
+            <Button android:textColor="#ffffff" android:id="@+id/umeng_analyse_exitBtn" android:background="@drawable/umeng_analyse_submit_selector" android:layout_width="80dp" android:layout_height="45dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="知道了" android:layout_weight="1"/>
+            <Button android:textColor="#ffffff" android:id="@+id/umeng_analyse_see_detail_btn" android:background="@drawable/umeng_analyse_submit_selector" android:layout_width="80dp" android:layout_height="45dp" android:layout_marginLeft="40dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="去看看" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

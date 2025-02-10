@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:title="@string/font_size_setting" android:key="font_size_setting">
+    <CheckBoxPreference android:title="@string/screen_adapt" android:key="size_screen_adapt"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/time_size" android:key="time_size" android:summary="@string/screen_adapt" android:entryValues="@array/font_size_values"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/am_size" android:key="am_size" android:summary="@string/screen_adapt" android:entryValues="@array/font_size_values"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/date_size" android:key="date_size" android:summary="@string/screen_adapt" android:entryValues="@array/font_size_values"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/status_size" android:key="status_size" android:summary="@string/screen_adapt" android:entryValues="@array/font_size_values"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/carrier_size" android:key="carrier_size" android:summary="@string/screen_adapt" android:entryValues="@array/font_size_values"/>
+</PreferenceScreen>

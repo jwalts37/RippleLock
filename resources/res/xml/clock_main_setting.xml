@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:title="@string/smart_clock_setting">
+    <Preference android:title="@string/how_to_use" android:key="how_to_use"/>
+    <PreferenceCategory android:title="@string/overall_setting"/>
+    <ListPreference android:entries="@array/widget_click_entries" android:title="@string/widget_click_action" android:key="widget_click_action" android:entryValues="@array/widget_click_values"/>
+    <CheckBoxPreference android:title="@string/use_24_hour" android:key="use_24_hour"/>
+    <ListPreference android:entries="@array/data_formate_entries" android:title="@string/date_format" android:key="date_format" android:entryValues="@array/data_formate_values"/>
+    <PreferenceCategory android:title="@string/display_setting"/>
+    <CheckBoxPreference android:title="@string/display_carrier" android:key="display_carrier"/>
+    <CheckBoxPreference android:title="@string/display_time" android:key="display_time"/>
+    <CheckBoxPreference android:title="@string/display_date" android:key="display_date"/>
+    <CheckBoxPreference android:title="@string/display_chargeinfo" android:key="display_chargeinfo"/>
+    <CheckBoxPreference android:title="@string/display_alarm" android:key="display_alarm"/>
+    <PreferenceCategory android:title="@string/color_setting"/>
+    <com.nanoha.smartClock.ColorPickerPreference android:persistent="true" android:title="@string/carrier_color" android:key="carrier_color" android:dialogTitle="@string/carrier_color"/>
+    <com.nanoha.smartClock.ColorPickerPreference android:persistent="true" android:title="@string/time_color" android:key="time_color" android:dialogTitle="@string/time_color"/>
+    <com.nanoha.smartClock.ColorPickerPreference android:persistent="true" android:title="@string/date_color" android:key="date_color" android:dialogTitle="@string/date_color"/>
+    <com.nanoha.smartClock.ColorPickerPreference android:persistent="true" android:title="@string/chargeinfo_color" android:key="chargeinfo_color" android:dialogTitle="@string/chargeinfo_color"/>
+    <com.nanoha.smartClock.ColorPickerPreference android:persistent="true" android:title="@string/alarm_color" android:key="alarm_color" android:dialogTitle="@string/alarm_color"/>
+    <PreferenceCategory android:title="@string/font_size_setting"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/carrier_size" android:key="carrier_size" android:entryValues="@array/font_size_values"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/time_size" android:key="time_size" android:entryValues="@array/font_size_values"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/ampm_size" android:key="ampm_size" android:entryValues="@array/font_size_values"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/date_size" android:key="date_size" android:entryValues="@array/font_size_values"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/chargeinfo_size" android:key="chargeinfo_size" android:entryValues="@array/font_size_values"/>
+    <ListPreference android:entries="@array/font_size_entries" android:title="@string/alarm_size" android:key="alarm_size" android:entryValues="@array/font_size_values"/>
+</PreferenceScreen>

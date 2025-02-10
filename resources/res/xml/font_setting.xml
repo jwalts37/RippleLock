@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:title="@string/font_setting">
+    <ListPreference android:entries="@array/fontstyle_entries" android:title="@string/font_style" android:key="font_style" android:entryValues="@array/fontstyle_values"/>
+    <Preference android:title="@string/font_size" android:key="font_size"/>
+    <Preference android:title="@string/font_color" android:key="font_color"/>
+</PreferenceScreen>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:title="@string/other_setting">
+    <Preference android:title="@string/shortcut_setting" android:key="shortcut_setting"/>
+    <Preference android:title="@string/block_home_setting" android:key="block_home_key_setting"/>
+    <PreferenceCategory android:title="@string/widget_setting"/>
+    <Preference android:title="@string/add_widget" android:key="add_widget"/>
+    <CheckBoxPreference android:title="@string/enable_widget_click" android:key="enable_widget_click"/>
+    <PreferenceCategory android:title="@string/password_setting"/>
+    <CheckBoxPreference android:title="@string/use_password" android:key="use_password"/>
+    <Preference android:title="@string/password_setting" android:key="password_setting"/>
+    <PreferenceCategory android:title="@string/double_lock_issue"/>
+    <CheckBoxPreference android:title="@string/use_system_security_lock" android:key="use_system_security_lock"/>
+    <ListPreference android:entries="@array/doublelock_issue_entries" android:title="@string/fix_double_lock_issue" android:key="fix_double_lock_issue" android:entryValues="@array/doublelock_issue_values"/>
+    <PreferenceCategory android:title="@string/other_setting"/>
+    <ListPreference android:entries="@array/music_player_entrier" android:title="@string/select_music_player" android:key="music_control" android:entryValues="@array/music_player_values"/>
+    <ListPreference android:entries="@array/screen_orientation_entries" android:title="@string/screen_orientation" android:key="screen_orientation" android:entryValues="@array/screen_orientation_values"/>
+    <ListPreference android:entries="@array/finish_anim_entries" android:title="@string/unlock_anim" android:key="unlock_anim" android:entryValues="@array/finish_anim_values"/>
+    <ListPreference android:entries="@array/data_formate_entries" android:title="@string/date_format_setting" android:key="date_format" android:entryValues="@array/data_formate_values"/>
+    <ListPreference android:entries="@array/screen_timeout_entrier" android:title="@string/screen_timeout" android:key="custom_timeout" android:summary="@string/screen_timeout_summary" android:entryValues="@array/screen_timeout_values"/>
+    <ListPreference android:entries="@array/delay_lock_entrier" android:title="@string/delay_lock" android:key="delay_lock" android:summary="@string/delay_lock_summary" android:entryValues="@array/delay_lock_values"/>
+    <CheckBoxPreference android:title="@string/use_call_button" android:key="use_call_button" android:summary="@string/use_call_button_desc"/>
+    <CheckBoxPreference android:title="@string/unlock_vibrate" android:key="unlock_vibrate"/>
+    <CheckBoxPreference android:title="@string/screen_lock_sound" android:key="lock_sound" android:summary="@string/screen_lock_sound_summary"/>
+    <CheckBoxPreference android:title="@string/disable_statusbar" android:key="disable_statusbar"/>
+    <CheckBoxPreference android:title="@string/bootup_auto_execute" android:key="bootup_auto_execute"/>
+</PreferenceScreen>

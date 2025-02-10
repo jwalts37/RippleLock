@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="screen_orientation_entries">
+        <item>Auto Rotate</item>
+        <item>Fix horizontal</item>
+        <item>Fix vertical</item>
+    </array>
+    <array name="screen_orientation_values">
+        <item>rotate</item>
+        <item>horizontal</item>
+        <item>vertical</item>
+    </array>
+    <array name="background_entries">
+        <item>Wallpaper</item>
+        <item>Select image</item>
+    </array>
+    <array name="background_values">
+        <item>@null</item>
+        <item>1</item>
+    </array>
+    <array name="fontstyle_entries">
+        <item>Default</item>
+        <item>Font One</item>
+        <item>Font Two</item>
+        <item>Font Three</item>
+        <item>Honeycomb</item>
+        <item>Select Font</item>
+    </array>
+    <array name="fontstyle_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <array name="finish_anim_entries">
+        <item>default</item>
+        <item>fade</item>
+        <item>from left to right</item>
+        <item>from right to left</item>
+        <item>from top to bottom</item>
+        <item>from bottom to top</item>
+    </array>
+    <array name="data_formate_entries">
+        <item>Default</item>
+        <item>Saturday 25 June</item>
+        <item>Saturday June 25</item>
+        <item>25 June Saturday</item>
+        <item>June 25 Saturday</item>
+    </array>
+    <array name="data_formate_values">
+        <item>@null</item>
+        <item>EEEE d MMM</item>
+        <item>EEEE MMMM d</item>
+        <item>d MMMM EEEE</item>
+        <item>MMMM d EEEE</item>
+    </array>
+    <array name="finish_anim_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <array name="font_size_entries">
+        <item>Auto</item>
+        <item>15dip</item>
+        <item>18dip</item>
+        <item>20dip</item>
+        <item>22dip</item>
+        <item>24dip</item>
+        <item>26dip</item>
+        <item>28dip</item>
+        <item>30dip</item>
+        <item>32dip</item>
+        <item>34dip</item>
+        <item>36dip</item>
+        <item>38dip</item>
+        <item>40dip</item>
+        <item>42dip</item>
+        <item>44dip</item>
+        <item>46dip</item>
+        <item>48dip</item>
+        <item>50dip</item>
+        <item>55dip</item>
+        <item>60dip</item>
+        <item>65dip</item>
+        <item>70dip</item>
+        <item>75dip</item>
+        <item>80dip</item>
+        <item>85dip</item>
+        <item>90dip</item>
+        <item>95dip</item>
+        <item>100dip</item>
+        <item>105dip</item>
+        <item>110dip</item>
+        <item>115dip</item>
+        <item>120dip</item>
+        <item>125dip</item>
+        <item>130dip</item>
+    </array>
+    <array name="font_size_values">
+        <item>@null</item>
+        <item>15</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>40</item>
+        <item>42</item>
+        <item>44</item>
+        <item>46</item>
+        <item>48</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+        <item>105</item>
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
+        <item>125</item>
+        <item>130</item>
+    </array>
+    <array name="shortcut_setting_entries">
+        <item>Not display</item>
+        <item>Select application</item>
+    </array>
+    <array name="shortcut_setting_values">
+        <item>@null</item>
+        <item>1</item>
+    </array>
+    <array name="shortcut_icon_setting_entries">
+        <item>Default</item>
+        <item>Select icon</item>
+    </array>
+    <array name="shortcut_icon_setting_values">
+        <item>@null</item>
+        <item>1</item>
+    </array>
+    <array name="doublelock_issue_entries">
+        <item>Mode one</item>
+        <item>Mode two</item>
+        <item>Mode three</item>
+        <item>Mode four</item>
+    </array>
+    <array name="doublelock_issue_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="music_player_entrier">
+        <item>Default</item>
+        <item>PowerAMP</item>
+        <item>PlayerPro</item>
+        <item>PlayerPro Trial</item>
+    </array>
+    <array name="music_player_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="screen_timeout_entrier">
+        <item>System default</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>10 minutes</item>
+    </array>
+    <array name="screen_timeout_values">
+        <item>@null</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>600000</item>
+    </array>
+    <array name="delay_lock_entrier">
+        <item>Immediate</item>
+        <item>3 seconds</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+    </array>
+    <array name="delay_lock_values">
+        <item>@null</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </array>
+    <array name="theme_entries">
+        <item>Theme one</item>
+        <item>Theme two</item>
+    </array>
+    <array name="theme_values">
+        <item>@null</item>
+        <item>1</item>
+    </array>
+    <array name="widget_click_entries">
+        <item>Do Nothing</item>
+        <item>Bring me to here</item>
+        <item>Bring me to alarm</item>
+    </array>
+    <array name="widget_click_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="clock_font_size_entries">
+        <item>Default</item>
+        <item>7dip</item>
+        <item>9dip</item>
+        <item>11dip</item>
+        <item>13dip</item>
+        <item>15dip</item>
+        <item>18dip</item>
+        <item>20dip</item>
+        <item>22dip</item>
+        <item>24dip</item>
+        <item>26dip</item>
+        <item>28dip</item>
+        <item>30dip</item>
+        <item>32dip</item>
+        <item>34dip</item>
+        <item>36dip</item>
+        <item>38dip</item>
+        <item>40dip</item>
+        <item>42dip</item>
+        <item>44dip</item>
+        <item>46dip</item>
+        <item>48dip</item>
+        <item>50dip</item>
+        <item>55dip</item>
+        <item>60dip</item>
+        <item>65dip</item>
+        <item>70dip</item>
+        <item>75dip</item>
+        <item>80dip</item>
+        <item>85dip</item>
+        <item>90dip</item>
+        <item>95dip</item>
+        <item>100dip</item>
+        <item>105dip</item>
+        <item>110dip</item>
+        <item>115dip</item>
+        <item>120dip</item>
+        <item>125dip</item>
+        <item>130dip</item>
+    </array>
+    <array name="clock_font_size_values">
+        <item>@null</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+        <item>13</item>
+        <item>15</item>
+        <item>15</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>40</item>
+        <item>42</item>
+        <item>44</item>
+        <item>46</item>
+        <item>48</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+        <item>105</item>
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
+        <item>125</item>
+        <item>130</item>
+    </array>
+    <array name="UMageList">
+        <item>Age</item>
+        <item>&lt;18</item>
+        <item>18~24</item>
+        <item>25~30</item>
+        <item>31~35</item>
+        <item>36~40</item>
+        <item>41~50</item>
+        <item>51~59</item>
+        <item>&gt;=60</item>
+    </array>
+    <array name="UMgenderList">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+</resources>

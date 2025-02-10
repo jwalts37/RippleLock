@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:orientation="vertical" android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="22dp" android:textColor="#565656" android:gravity="center" android:layout_gravity="center" android:id="@+id/umeng_analyse_feedback_conversation_title" android:background="@drawable/umeng_analyse_feedback_bar_bg" android:layout_width="match_parent" android:layout_height="50dp" android:text="反馈问题"/>
+    <com.feedback.ui.ThreadView android:layout_gravity="top" android:id="@android:id/list" android:background="#efefef" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="#eeeeee" android:divider="#efefef" android:layout_weight="1"/>
+    <View android:background="#d5d5d5" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <View android:background="#c6c6c6" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/umeng_analyse_bottom_sub" android:background="@drawable/umeng_analyse_bottom_banner" android:paddingTop="5dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/umeng_analyse_editTxtFb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:maxLines="2" android:layout_weight="1" android:layout_toLeftOf="@+id/umeng_analyse_btnSendFb" android:layout_alignParentLeft="true"/>
+        <Button android:textColor="#ffffff" android:id="@+id/umeng_analyse_btnSendFb" android:background="@drawable/umeng_analyse_submit_selector" android:layout_width="70dp" android:layout_height="40dp" android:layout_marginLeft="12dp" android:layout_marginRight="6dp" android:text="Submit" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

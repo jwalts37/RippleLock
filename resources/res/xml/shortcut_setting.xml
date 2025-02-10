@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:title="@string/shortcut_setting">
+    <CheckBoxPreference android:title="@string/display_quickview" android:key="display_quickview"/>
+    <PreferenceCategory android:title="@string/left_shortcut_setting"/>
+    <ListPreference android:entries="@array/shortcut_setting_entries" android:title="@string/left_shortcut_setting" android:key="left_shortcut_setting" android:entryValues="@array/shortcut_setting_values"/>
+    <ListPreference android:entries="@array/shortcut_icon_setting_entries" android:title="@string/left_shortcut_icon_setting" android:key="left_shortcut_setting_icon" android:entryValues="@array/shortcut_icon_setting_values"/>
+    <PreferenceCategory android:title="@string/top_shortcut_setting"/>
+    <ListPreference android:entries="@array/shortcut_setting_entries" android:title="@string/top_shortcut_setting" android:key="top_shortcut_setting" android:entryValues="@array/shortcut_setting_values"/>
+    <ListPreference android:entries="@array/shortcut_icon_setting_entries" android:title="@string/top_shortcut_icon_setting" android:key="top_shortcut_setting_icon" android:entryValues="@array/shortcut_icon_setting_values"/>
+    <PreferenceCategory android:title="@string/right_shortcut_setting"/>
+    <ListPreference android:entries="@array/shortcut_setting_entries" android:title="@string/right_shortcut_setting" android:key="right_shortcut_setting" android:entryValues="@array/shortcut_setting_values"/>
+    <ListPreference android:entries="@array/shortcut_icon_setting_entries" android:title="@string/right_shortcut_icon_setting" android:key="right_shortcut_setting_icon" android:entryValues="@array/shortcut_icon_setting_values"/>
+    <PreferenceCategory android:title="@string/bottom_shortcut_setting"/>
+    <ListPreference android:entries="@array/shortcut_setting_entries" android:title="@string/bottom_shortcut_setting" android:key="bottom_shortcut_setting" android:entryValues="@array/shortcut_setting_values"/>
+    <ListPreference android:entries="@array/shortcut_icon_setting_entries" android:title="@string/bottom_shortcut_icon_setting" android:key="bottom_shortcut_setting_icon" android:entryValues="@array/shortcut_icon_setting_values"/>
+</PreferenceScreen>

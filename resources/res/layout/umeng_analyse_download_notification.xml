@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock" android:orientation="vertical" android:background="@android:drawable/status_bar_item_app_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/umeng_analyse_app" android:paddingTop="8dp" android:focusable="true" android:clickable="true" android:layout_width="40dp" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="center" android:id="@+id/umeng_analyse_appIcon" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="14sp" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@+id/umeng_analyse_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/umeng_analyse_app" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/umeng_analyse_notification" android:paddingTop="10dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <TextView android:textSize="18sp" android:textColor="#ff000000" android:id="@+id/umeng_analyse_title" android:paddingLeft="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textSize="14sp" android:textStyle="italic" android:textColor="#ff000000" android:id="@+id/umeng_analyse_description" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+            <ProgressBar android:id="@+id/umeng_analyse_progress_bar" android:paddingRight="25dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?android:attr/progressBarStyleHorizontal"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
